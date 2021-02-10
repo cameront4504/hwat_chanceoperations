@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="Cameron Tolentino">
+  <meta name="description" content="Chance Operations Assignment">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet"/>
+  
+</head>
+
+<body>
+	<div id="wrapper">
+	<div id="audio">
+		<audio loop id="player" src="assets/simsMusic.mp3"></audio>
+		<button id="playBtn" ><i class="fas fa-play"></i></button>
+	</div>
+	
+	<div id="fullpage">
+	  
+		<div id="introScreen" class="section">
+			<div class="row">
+				<div class="one column"></div>
+				<div class="eleven columns">
+					<div class="u-pull-right">
+					<h1>H.W.A.T</h1>
+					<h2>The Housewife Aptitude Test</h2>
+					<button class="button">Learn More!</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="rulesAndAbout" class="section">
+			<div class="row">
+			<div class="six columns">
+			<br/><br/><br/></br><br/></br>
+			<h2>About H.W.A.T</h2>
+			<p>
+				Can you cook?<br/>Can you clean?</br>Can you do <i>both?</i><br/><br/>
+				H.W.A.T puts your mind and temperament to the test to determine your true housewife aptitude-- both inherent and acquired.
+				You only have one shot per answer, so remember to always answer as honestly and earnestly as possible!
+			</p>
+			<button class="button">Get Started!</button>
+			</div>
+			<div class="five columns"><img src="assets/hangingCoat.jpg" alt="hanging coat"/></div>
+			</div>
+		</div>
+		
+		<div id="questionOne" class="quizSection section">
+			<div class="container">
+			<h3>Question One</h3>
+			<h4>Question</h4>
+			<input type="button" value="1" class="button u-pull-left"><p>1</p><br/>
+			<input type="button" value="2" class="button u-pull-left"><p>2</p><br/>
+			<input type="button" value="3" class="button u-pull-left"><p>3</p><br/>
+			</div>
+		</div>
+		
+		<div id="questionTwo" class="quizSection section">
+			<div class="container">
+			<h3>Question Two</h3>
+			<h4>Question</h4>
+			<input type="button" value="1" class="button u-pull-left"><p>1</p><br/>
+			<input type="button" value="2" class="button u-pull-left"><p>2</p><br/>
+			<input type="button" value="3" class="button u-pull-left"><p>3</p><br/>
+			</div>
+		</div>
+		
+		<div id="questionThree" class="quizSection section">
+			<div class="container">
+			<h3>Question Three</h3>
+			<h4>Question</h4>
+			<input type="button" value="1" class="button u-pull-left"><p>1</p><br/>
+			<input type="button" value="2" class="button u-pull-left"><p>2</p><br/>
+			<input type="button" value="3" class="button u-pull-left"><p>3</p><br/>
+			</div>
+		</div>
+		
+		<div id="questionFour" class="quizSection section">
+			<div class="container">
+			<h3>Question Four</h3>
+			<h4>Question</h4>
+			<input type="button" value="1" class="button u-pull-left"><p>1</p><br/>
+			<input type="button" value="2" class="button u-pull-left"><p>2</p><br/>
+			<input type="button" value="3" class="button u-pull-left"><p>3</p><br/>
+			</div>
+		</div>
+		
+		<div id="questionFive" class="quizSection section">
+			<div class="container">
+			<h3>Question Five</h3>
+			<h4>Question</h4>
+			<input type="button" value="1" class="button u-pull-left"><p>1</p><br/>
+			<input type="button" value="2" class="button u-pull-left"><p>2</p><br/>
+			<input type="button" value="3" class="button u-pull-left"><p>3</p><br/>
+			</div>
+		</div>
+		
+		<div id="resultAndFinish" class="section">
+			<div class="row">
+			<div class="six columns">
+			<br/><br/><br/></br><br/></br>
+			<h1>Loading...</h1>
+			</div>
+			<div class="five columns"><img src="assets/christmasList.jpg" alt="christmas list"/></div>
+			</div>
+		</div>
+		
+		<div id="end" class="section">
+			<div class="container">
+				<img src="assets/shinyPan.jpg" alt="result image"/>
+				<h3>Aptitude:</h3>
+				<p>result description</p>
+				<input type="button" class="button" value="Retake Test" onClick="window.location.reload();">
+			</div>
+		</div>
+		
+	</div>
+	</div>
+  <!-- scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

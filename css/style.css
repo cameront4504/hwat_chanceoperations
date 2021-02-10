@@ -1,0 +1,98 @@
+/*
+
+MISCELLANEOUS NOTES
+
+font-family: 'Merriweather', serif;
+font-family: 'Lato', sans-serif;
+
+*/
+
+/* MAIN OVERARCHING STYLES */
+
+a {
+	text-decoration: none;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+
+#wrapper {
+	display: none;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 10em;
+}
+
+.button {
+	border-radius: 50px !important;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#audio {
+	padding: 10px;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+}
+
+#audio button {
+	all: initial;
+  * {
+    all: unset;
+  }
+}
+
+.section {
+	overflow: hidden;
+}
+
+/* INTRO SCREEN */
+
+#introScreen {
+	background-image: url("../assets/probablyLinda.png");
+	background-repeat: no-repeat;
+	text-align: right;
+}
+
+#introScreen .u-pull-right {
+	margin-top: -220px;
+	margin-right: 50px;
+}
+
+#introScreen h1 {
+	margin-right: -15px;
+}
+
+#rulesAndAbout .six, #end .six {
+	margin-left: 70px;
+}
+
+.quizSection input {
+	margin-right: 30px;
+}
+
+#resultAndFinish h1 {
+	opacity: 0;
+}
+
+#resultAndFinish > div > div > div.six.columns > h1 {
+	font-size: 7.5em !important;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+#end {
+	text-align:center;
+}
+
+#end img {
+	width: 40%;
+	height: auto;
+}
