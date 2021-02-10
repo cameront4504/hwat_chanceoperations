@@ -1,5 +1,5 @@
 <h1>H.W.A.T.</h1>
-<h2>The Housewife Aptitude Test</h2>
+The Housewife Aptitude Test
 
 Can you cook?
 Can you clean?
