@@ -1,5 +1,5 @@
 # H.W.A.T.
-## The Housewife Aptitude Test
+The Housewife Aptitude Test
 
 Can you cook?
 Can you clean?
